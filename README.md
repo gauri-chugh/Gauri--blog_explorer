@@ -1,16 +1,35 @@
-# blog_explorer
+# Blog Explorer
 
-A new Flutter project.
+A Flutter application to fetch and display a list of blogs from a RESTful API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetches and displays blogs from the provided API.
+- Shows blog details on a separate screen.
+- Allows users to mark blogs as favorites.
+- Offline support with Hive for caching blog data.
+- Attractive and user-friendly UI/UX design.
+- **New:** Search functionality to find blogs by title.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/yourusername/blog_explorer.git
+   cd blog_explorer
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Install dependencies**:
+   ```sh
+   flutter pub get
+
+3. **Run the App**:
+   ```sh
+   flutter run
+
+## Dependencies
+
+-http
+-flutter_bloc
+-equatable
+-hive
+-hive_flutter
