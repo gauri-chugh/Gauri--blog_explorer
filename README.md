@@ -28,8 +28,8 @@ A Flutter application to fetch and display a list of blogs from a RESTful API.
 
 ## Dependencies
 
--http
--flutter_bloc
--equatable
--hive
--hive_flutter
+-http.
+-flutter_bloc.
+-equatable.
+-hive.
+-hive_flutter.
